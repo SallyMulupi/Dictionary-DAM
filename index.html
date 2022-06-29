@@ -17,3 +17,51 @@
     <link rel="stylesheet" href="./style.css" />
     <!-- Title -->
     <title>Dictionary</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>English Dictionary</header>
+        <!-- search div -->
+        <div class="search">
+            <input type="text" name="text" placeholder="Search a word" required />
+            <i class="fas fa-search"></i>
+            <span class="material-icons">close</span>
+        </div>
+        <p class="info-text">
+            Type any existing word and press enter to get meaning, example, synonyms, etc.
+        </p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p>_</p>
+                    <span>___</span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>____</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="details">
+                        <p>Example</p>
+                        <span>____</span>
+                    </div>
+                </li>
+                <li class="synonym">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
